@@ -4,4 +4,7 @@
 
 A dot net core command line app that fakes processing data
 
-Run docker image:  docker run awiddowson/fakedataprocessor
+Run docker image:  
+```
+docker run awiddowson/fakedataprocessor
+```
