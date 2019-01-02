@@ -14,7 +14,7 @@ namespace FakeDataProcessor
         static void Main(string[] args)
         {
             InitialiseLogging();
-            Log.Information("FakeDataProcessor Starting!");
+            Log.Information("FakeDataProcessor Starting! {args}", args);
 
             DoSomeFakeDataProcessingWork();
 
